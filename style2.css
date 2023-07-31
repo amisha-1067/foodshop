@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Borel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+header > h1 {
+  text-align: center;
+  font-family: "Borel", cursive;
+  color: red;
+}
+header > h3 {
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  color: black;
+}
+#image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  width: 20px;
+  height: 20px;
+}
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#navbar > a {
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+}
+#heading > h1 {
+  text-align: center;
+}
+#heading > span {
+  display: block;
+  text-align: center;
+}
+#tags #price {
+  width: 200px;
+  height: 100px;
+  display: inline;
+  background-color: red;
+  float: left;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+}
+#tags #special {
+  width: 200px;
+  height: 100px;
+  background-color: green;
+  float: left;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+}
+#tags {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#main {
+  background-color: bisque;
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+}
+#heading2 {
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  color: red;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+.col {
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 5px;
+  height: 200px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
